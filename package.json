@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "run:query-data": "ts-node ./src/query_data.ts",
+    "run:subscribe-data": "ts-node ./src/subscribe_data.ts"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0",
+    "sleep-ts": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
